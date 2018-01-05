@@ -1,0 +1,11 @@
+upload:
+  config:
+    isFTP: false
+    path: /uploads
+  ftp:
+    hostname:
+    port:
+    username:
+    password:
+    path:
+    displaypath:
