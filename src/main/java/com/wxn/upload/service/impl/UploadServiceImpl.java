@@ -25,7 +25,7 @@ public class UploadServiceImpl implements UploadService {
     private ServletContext servletContext;
     @Autowired
     private FileHandlerFactory fhf;
-    @Value("${upload.path}")
+    @Value("${upload.config.path}")
     private String filePath;
 
     @Override

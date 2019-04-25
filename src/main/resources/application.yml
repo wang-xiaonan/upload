@@ -9,3 +9,8 @@ upload:
     password:
     path:
     displaypath:
+spring:
+  http:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
